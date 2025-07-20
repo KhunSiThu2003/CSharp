@@ -1,7 +1,44 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\masterpages\\webpagessite.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\masterpages\\webpagessite.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\pages\\webpages\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\pages\\webpages\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\pages\\webpages\\aboutuspage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\pages\\webpages\\aboutuspage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\default.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\pages\\employer\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\pages\\employer\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\pages\\jobseeker\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\pages\\jobseeker\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\masterpages\\jobseekersite.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\masterpages\\jobseekersite.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|c:\\users\\khuns\\desktop\\csharp\\jobbridge\\jobbridge\\masterpages\\employersite.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{501A80CA-38E2-4E1D-931B-00C642B7180F}|JobBridge\\JobBridge.csproj|solutionrelative:jobbridge\\masterpages\\employersite.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +46,125 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebPagesSite.Master",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\MasterPages\\WebPagesSite.Master",
+              "RelativeDocumentMoniker": "JobBridge\\MasterPages\\WebPagesSite.Master",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\MasterPages\\WebPagesSite.Master",
+              "RelativeToolTip": "JobBridge\\MasterPages\\WebPagesSite.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T04:52:46.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\Pages\\WebPages\\HomePage.aspx",
+              "RelativeDocumentMoniker": "JobBridge\\Pages\\WebPages\\HomePage.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\Pages\\WebPages\\HomePage.aspx",
+              "RelativeToolTip": "JobBridge\\Pages\\WebPages\\HomePage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T04:52:46.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AboutUsPage.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\Pages\\WebPages\\AboutUsPage.aspx",
+              "RelativeDocumentMoniker": "JobBridge\\Pages\\WebPages\\AboutUsPage.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\Pages\\WebPages\\AboutUsPage.aspx",
+              "RelativeToolTip": "JobBridge\\Pages\\WebPages\\AboutUsPage.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T04:52:49.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\Pages\\Employer\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "JobBridge\\Pages\\Employer\\Dashboard.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\Pages\\Employer\\Dashboard.aspx",
+              "RelativeToolTip": "JobBridge\\Pages\\Employer\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T04:52:22.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\Pages\\JobSeeker\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "JobBridge\\Pages\\JobSeeker\\Dashboard.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\Pages\\JobSeeker\\Dashboard.aspx",
+              "RelativeToolTip": "JobBridge\\Pages\\JobSeeker\\Dashboard.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T04:52:00.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JobSeekerSite.Master",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\MasterPages\\JobSeekerSite.Master",
+              "RelativeDocumentMoniker": "JobBridge\\MasterPages\\JobSeekerSite.Master",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\MasterPages\\JobSeekerSite.Master",
+              "RelativeToolTip": "JobBridge\\MasterPages\\JobSeekerSite.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T04:51:35.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "default.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\default.aspx.cs",
+              "RelativeDocumentMoniker": "JobBridge\\default.aspx.cs",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\default.aspx.cs",
+              "RelativeToolTip": "JobBridge\\default.aspx.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T04:47:37.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "default.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\default.aspx",
+              "RelativeDocumentMoniker": "JobBridge\\default.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\default.aspx",
+              "RelativeToolTip": "JobBridge\\default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T04:45:29.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployerSite.Master",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\MasterPages\\EmployerSite.Master",
+              "RelativeDocumentMoniker": "JobBridge\\MasterPages\\EmployerSite.Master",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobBridge\\JobBridge\\MasterPages\\EmployerSite.Master",
+              "RelativeToolTip": "JobBridge\\MasterPages\\EmployerSite.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-20T04:51:19.506Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"

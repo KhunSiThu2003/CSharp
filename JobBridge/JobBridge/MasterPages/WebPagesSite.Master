@@ -1,0 +1,114 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebPagesSite.master.cs" Inherits="JobBridge.MasterPages.WebPagesSite" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobBridge - Connecting Talent with Opportunity</title>
+    
+    <link href="~/Styles/output.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-gray-50">
+    <form id="form1" runat="server">
+        <!-- Navigation -->
+        <nav class="bg-white shadow-lg">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex justify-between">
+                    <div class="flex space-x-7">
+                        <div>
+                            <a href="/Pages/WebPages/HomePage.aspx" class="flex items-center py-4 px-2">
+                                <span class="font-semibold text-gray-500 text-2xl">Job<span class="text-blue-600">Bridge</span></span>
+                            </a>
+                        </div>
+                        <div class="hidden md:flex items-center space-x-1">
+                            <a href="/Pages/WebPages/HomePage.aspx" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">Home</a>
+                            <a href="/Pages/WebPages/AboutUsPage.aspx" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">About Us</a>
+                            <a href="/Pages/WebPages/ContactUsPage.aspx" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-3">
+                        <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="py-2 px-4 font-medium text-gray-500 rounded hover:bg-blue-600 hover:text-white transition duration-300 border border-blue-600" />
+                        <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="py-2 px-4 font-medium text-white bg-blue-600 rounded hover:bg-blue-700 transition duration-300" />
+                    </div>
+                    <div class="md:hidden flex items-center">
+                        <button class="outline-none mobile-menu-button">
+                            <svg class="w-6 h-6 text-gray-500" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                                <path d="M4 6h16M4 12h16M4 18h16"></path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile menu -->
+            <div class="hidden mobile-menu">
+                <ul class="">
+                    <li class="active"><a href="/Pages/WebPages/HomePage.aspx" class="block text-sm px-2 py-4 text-white bg-blue-600 font-semibold">Home</a></li>
+                    <li><a href="/Pages/WebPages/AboutUsPage.aspx" class="block text-sm px-2 py-4 hover:bg-blue-600 transition duration-300">About Us</a></li>
+                    <li><a href="/Pages/WebPages/ContactUsPage.aspx" class="block text-sm px-2 py-4 hover:bg-blue-600 transition duration-300">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="min-h-screen">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-white pt-12 pb-8">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-wrap">
+                    <div class="w-full md:w-1/3 lg:w-1/4 mb-8">
+                        <h3 class="text-xl font-semibold mb-4">JobBridge</h3>
+                        <p class="text-gray-400">Connecting talented professionals with great companies.</p>
+                    </div>
+                    <div class="w-full md:w-1/3 lg:w-1/4 mb-8">
+                        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                        <ul>
+                            <li class="mb-2"><a href="/Pages/WebPages/HomePage.aspx" class="text-gray-400 hover:text-white">Home</a></li>
+                            <li class="mb-2"><a href="/Pages/WebPages/AboutUsPage.aspx" class="text-gray-400 hover:text-white">About Us</a></li>
+                            <li class="mb-2"><a href="/Pages/WebPages/ContactUsPage.aspx" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/3 lg:w-1/4 mb-8">
+                        <h4 class="text-lg font-semibold mb-4">For Job Seekers</h4>
+                        <ul>
+                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Browse Jobs</a></li>
+                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Create Profile</a></li>
+                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Job Alerts</a></li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/3 lg:w-1/4 mb-8">
+                        <h4 class="text-lg font-semibold mb-4">For Employers</h4>
+                        <ul>
+                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Post a Job</a></li>
+                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Browse Candidates</a></li>
+                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Pricing Plans</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-t border-gray-700 pt-8 mt-8 text-center text-gray-400">
+                    <p>&copy; 2023 JobBridge. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Script for mobile menu toggle -->
+        <script>
+            const btn = document.querySelector("button.mobile-menu-button");
+            const menu = document.querySelector(".mobile-menu");
+
+            btn.addEventListener("click", () => {
+                menu.classList.toggle("hidden");
+            });
+        </script>
+    </form>
+</body>
+</html>
