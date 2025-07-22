@@ -1,113 +1,429 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebPagesSite.master.cs" Inherits="JobBridge.MasterPages.WebPagesSite" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="WebPagesSite.master.cs"
+    Inherits="JobBridge.MasterPages.WebPagesSite" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head runat="server">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JobBridge - Connecting Talent with Opportunity</title>
-    
-    <link href="~/Styles/output.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+            JobBridge - Hire Smarter, Work Better
+        </asp:ContentPlaceHolder>
+    </title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/Assets/Images/favicon.png">
+
+    <!-- CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
+
+    <style>
+        :root {
+            --primary: #000000; /* Pure black */
+            --primary-light: #333333; /* Dark gray (lighter than black) */
+            --primary-dark: #000000; /* Pure black (same as base) */
+            --secondary: #10B981; /* Keeping your existing secondary */
+            --accent: #F59E0B; /* Keeping your existing accent */
+            --dark: #1F2937; /* Keeping your existing dark */
+            --light: #F9FAFB; /* Keeping your existing light */
+            --gray: #6B7280; /* Keeping your existing gray */
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--dark);
+            background-color: var(--light);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Enhanced Navigation */
+        .navbar {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(8px);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+
+            .navbar.scrolled {
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            }
+
+        .nav-link {
+            position: relative;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+            .nav-link::after {
+                content: '';
+                position: absolute;
+                width: 0;
+                height: 2px;
+                bottom: -4px;
+                left: 0;
+                background-color: var(--primary);
+                transition: width 0.3s ease;
+                border-radius: 2px;
+            }
+
+            .nav-link:hover::after,
+            .nav-link.active::after {
+                width: 100%;
+            }
+
+        .hero-section {
+            background: linear-gradient(135deg, rgba(79, 70, 229, 0.03) 0%, rgba(99, 102, 241, 0.02) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Button Styles */
+        .btn {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            font-weight: 600;
+            letter-spacing: 0.025em;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            box-shadow: 0 4px 6px rgba(79, 70, 229, 0.1);
+        }
+
+            .btn-primary:hover {
+                transform: translateY(-1px);
+                box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.2);
+            }
+
+        .btn-secondary {
+            background: white;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+        }
+
+            .btn-secondary:hover {
+                background: rgba(79, 70, 229, 0.05);
+                transform: translateY(-1px);
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            }
+
+        .btn-white {
+            background: white;
+            color: var(--primary);
+        }
+
+            .btn-white:hover {
+                background: rgba(255, 255, 255, 0.9);
+                transform: translateY(-1px);
+            }
+
+        /* Ripple Effect */
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(0);
+            animation: ripple 0.6s linear;
+            pointer-events: none;
+        }
+
+        @keyframes ripple {
+            to {
+                transform: scale(4);
+                opacity: 0;
+            }
+        }
+
+        /* Mobile Menu */
+        .mobile-menu {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            max-height: 0;
+            overflow: hidden;
+        }
+
+            .mobile-menu.open {
+                max-height: 500px;
+            }
+
+        /* Footer */
+        .footer-link {
+            transition: all 0.2s ease;
+        }
+
+            .footer-link:hover {
+                color: var(--primary);
+                transform: translateX(4px);
+            }
+
+        .floating {
+            animation: float 4s ease-in-out infinite 1s;
+        }
+
+        .floating-delay {
+            animation: float 4s ease-in-out infinite 1s;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+        }
+    </style>
 </head>
-<body class="bg-gray-50">
+<body>
     <form id="form1" runat="server">
         <!-- Navigation -->
-        <nav class="bg-white shadow-lg">
-            <div class="max-w-6xl mx-auto px-4">
-                <div class="flex justify-between">
-                    <div class="flex space-x-7">
-                        <div>
-                            <a href="/Pages/WebPages/HomePage.aspx" class="flex items-center py-4 px-2">
-                                <span class="font-semibold text-gray-500 text-2xl">Job<span class="text-blue-600">Bridge</span></span>
-                            </a>
-                        </div>
-                        <div class="hidden md:flex items-center space-x-1">
-                            <a href="/Pages/WebPages/HomePage.aspx" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">Home</a>
-                            <a href="/Pages/WebPages/AboutUsPage.aspx" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">About Us</a>
-                            <a href="/Pages/WebPages/ContactUsPage.aspx" class="py-4 px-2 text-gray-500 font-semibold hover:text-blue-600 transition duration-300">Contact Us</a>
-                        </div>
+        <!-- Navigation -->
+        <nav id="navbar" class="navbar sticky top-0 z-50 border-b border-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-20">
+                    <!-- Logo -->
+                    <div class="flex items-center">
+                        <a href="/" class="flex items-center text-2xl font-bold text-gray-900 hover:text-primary transition-colors duration-200">
+                            <span class="text-primary">Job</span>Bridge
+                    <span class="ml-2 bg-primary text-white text-xs px-2 py-1 rounded-full transform hover:scale-105 transition-transform">
+                        PRO</span>
+                        </a>
                     </div>
-                    <div class="hidden md:flex items-center space-x-3">
-                        <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="py-2 px-4 font-medium text-gray-500 rounded hover:bg-blue-600 hover:text-white transition duration-300 border border-blue-600" />
-                        <asp:Button ID="btnRegister" runat="server" Text="Register" CssClass="py-2 px-4 font-medium text-white bg-blue-600 rounded hover:bg-blue-700 transition duration-300" />
+
+                    <!-- Desktop Navigation -->
+                    <div class="hidden lg:flex items-center space-x-1">
+                        <a href="/Pages/WebPages/HomePage.aspx"
+                            class="nav-link px-4 py-2 rounded-lg text-gray-700 hover:text-primary hover:bg-gray-50 transition-all duration-200">
+                            Home
+                        </a>
+                        <a href="/Pages/WebPages/JobListings.aspx"
+                            class="nav-link px-4 py-2 rounded-lg text-gray-700 hover:text-primary hover:bg-gray-50 transition-all duration-200">
+                            Jobs
+                        </a>
+                        <a href="/Pages/WebPages/Employers.aspx"
+                            class="nav-link px-4 py-2 rounded-lg text-gray-700 hover:text-primary hover:bg-gray-50 transition-all duration-200">
+                            Employers
+                        </a>
+                        <a href="/Pages/WebPages/AboutUsPage.aspx"
+                            class="nav-link px-4 py-2 rounded-lg text-gray-700 hover:text-primary hover:bg-gray-50 transition-all duration-200">
+                            About
+                        </a>
+                        <a href="/Pages/WebPages/ContactUsPage.aspx"
+                            class="nav-link px-4 py-2 rounded-lg text-gray-700 hover:text-primary hover:bg-gray-50 transition-all duration-200">
+                            Contact
+                        </a>
+
                     </div>
-                    <div class="md:hidden flex items-center">
-                        <button class="outline-none mobile-menu-button">
-                            <svg class="w-6 h-6 text-gray-500" x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-                                <path d="M4 6h16M4 12h16M4 18h16"></path>
+
+                    <!-- Mobile menu button -->
+                    <div class="lg:hidden flex items-center space-x-4">
+                        <button id="mobileMenuButton" type="button"
+                            class="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary hover:bg-gray-100 focus:outline-none transition-all duration-200">
+                            <svg id="menuIcon" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
                         </button>
                     </div>
                 </div>
             </div>
-            <!-- Mobile menu -->
-            <div class="hidden mobile-menu">
-                <ul class="">
-                    <li class="active"><a href="/Pages/WebPages/HomePage.aspx" class="block text-sm px-2 py-4 text-white bg-blue-600 font-semibold">Home</a></li>
-                    <li><a href="/Pages/WebPages/AboutUsPage.aspx" class="block text-sm px-2 py-4 hover:bg-blue-600 transition duration-300">About Us</a></li>
-                    <li><a href="/Pages/WebPages/ContactUsPage.aspx" class="block text-sm px-2 py-4 hover:bg-blue-600 transition duration-300">Contact Us</a></li>
-                </ul>
+
+            <!-- Mobile Navigation -->
+            <div id="mobileMenu" class="mobile-menu h-screen lg:hidden bg-white shadow-lg">
+                <div class="px-4 pt-2 pb-6 space-y-1">
+                    <a href="/Pages/WebPages/HomePage.aspx"
+                        class="block px-4 py-3 rounded-lg font-medium text-gray-700 hover:bg-gray-50 hover:text-primary transition flex items-center">
+                        <i class="fas fa-home mr-3 w-5 text-center"></i>Home
+                    </a>
+                    <a href="/Pages/WebPages/JobListings.aspx"
+                        class="block px-4 py-3 rounded-lg font-medium text-gray-700 hover:bg-gray-50 hover:text-primary transition flex items-center">
+                        <i class="fas fa-briefcase mr-3 w-5 text-center"></i>Jobs
+                    </a>
+                    <a href="/Pages/WebPages/Employers.aspx"
+                        class="block px-4 py-3 rounded-lg font-medium text-gray-700 hover:bg-gray-50 hover:text-primary transition flex items-center">
+                        <i class="fas fa-building mr-3 w-5 text-center"></i>Employers
+                    </a>
+                    <a href="/Pages/WebPages/AboutUsPage.aspx"
+                        class="block px-4 py-3 rounded-lg font-medium text-gray-700 hover:bg-gray-50 hover:text-primary transition flex items-center">
+                        <i class="fas fa-info-circle mr-3 w-5 text-center"></i>About Us
+                    </a>
+                    <a href="/Pages/WebPages/ContactUsPage.aspx"
+                        class="block px-4 py-3 rounded-lg font-medium text-gray-700 hover:bg-gray-50 hover:text-primary transition flex items-center">
+                        <i class="fas fa-envelope mr-3 w-5 text-center"></i>Contact
+                    </a>
+
+                </div>
             </div>
         </nav>
 
         <!-- Main Content -->
-        <main class="min-h-screen">
+        <main class="flex-grow">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <!-- Default content can go here -->
             </asp:ContentPlaceHolder>
         </main>
 
         <!-- Footer -->
-        <footer class="bg-gray-800 text-white pt-12 pb-8">
-            <div class="container mx-auto px-6">
-                <div class="flex flex-wrap">
-                    <div class="w-full md:w-1/3 lg:w-1/4 mb-8">
-                        <h3 class="text-xl font-semibold mb-4">JobBridge</h3>
-                        <p class="text-gray-400">Connecting talented professionals with great companies.</p>
+        <footer class="bg-white border-t border-gray-200">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <span class="text-2xl font-bold text-gray-900">
+                                <span class="text-primary">Job</span>Bridge
+                            </span>
+                            <span class="ml-2 bg-primary text-white text-xs px-2 py-1 rounded-full">PRO</span>
+                        </div>
+                        <p class="text-gray-600 text-sm">
+                            Connecting talent with opportunity through innovative
+                            technology.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-primary transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/4 mb-8">
-                        <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
-                        <ul>
-                            <li class="mb-2"><a href="/Pages/WebPages/HomePage.aspx" class="text-gray-400 hover:text-white">Home</a></li>
-                            <li class="mb-2"><a href="/Pages/WebPages/AboutUsPage.aspx" class="text-gray-400 hover:text-white">About Us</a></li>
-                            <li class="mb-2"><a href="/Pages/WebPages/ContactUsPage.aspx" class="text-gray-400 hover:text-white">Contact Us</a></li>
+
+                    <div class="space-y-4">
+                        <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider">For Job Seekers
+                        </h3>
+                        <ul class="space-y-2">
+                            <li><a href="/Pages/WebPages/JobListings.aspx" class="footer-link text-sm text-gray-600">
+                                Browse Jobs</a></li>
+                            <li><a href="/Pages/WebPages/CareerAdvice.aspx" class="footer-link text-sm text-gray-600">
+                                Career Advice</a></li>
+                            <li><a href="/Pages/WebPages/ResumeBuilder.aspx" class="footer-link text-sm text-gray-600">
+                                Resume Builder</a></li>
+                            <li><a href="/Pages/WebPages/SalaryCalculator.aspx" class="footer-link text-sm text-gray-600">
+                                Salary Calculator</a></li>
                         </ul>
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/4 mb-8">
-                        <h4 class="text-lg font-semibold mb-4">For Job Seekers</h4>
-                        <ul>
-                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Browse Jobs</a></li>
-                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Create Profile</a></li>
-                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Job Alerts</a></li>
+
+                    <div class="space-y-4">
+                        <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider">For Employers
+                        </h3>
+                        <ul class="space-y-2">
+                            <li><a href="/Pages/WebPages/PostJob.aspx" class="footer-link text-sm text-gray-600">
+                                Post a Job</a></li>
+                            <li><a href="/Pages/WebPages/BrowseCandidates.aspx" class="footer-link text-sm text-gray-600">
+                                Browse Candidates</a></li>
+                            <li><a href="/Pages/WebPages/Pricing.aspx" class="footer-link text-sm text-gray-600">
+                                Pricing Plans</a></li>
+                            <li><a href="/Pages/WebPages/EmployerResources.aspx" class="footer-link text-sm text-gray-600">
+                                Employer Resources</a></li>
                         </ul>
                     </div>
-                    <div class="w-full md:w-1/3 lg:w-1/4 mb-8">
-                        <h4 class="text-lg font-semibold mb-4">For Employers</h4>
-                        <ul>
-                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Post a Job</a></li>
-                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Browse Candidates</a></li>
-                            <li class="mb-2"><a href="#" class="text-gray-400 hover:text-white">Pricing Plans</a></li>
+
+                    <div class="space-y-4">
+                        <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider">Company
+                        </h3>
+                        <ul class="space-y-2">
+                            <li><a href="/Pages/WebPages/AboutUsPage.aspx" class="footer-link text-sm text-gray-600">
+                                About Us</a></li>
+                            <li><a href="/Pages/WebPages/ContactUsPage.aspx" class="footer-link text-sm text-gray-600">
+                                Contact Us</a></li>
+                            <li><a href="/Pages/WebPages/Careers.aspx" class="footer-link text-sm text-gray-600">
+                                Careers</a></li>
+                            <li><a href="/Pages/WebPages/Blog.aspx" class="footer-link text-sm text-gray-600">Blog</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
-                <div class="border-t border-gray-700 pt-8 mt-8 text-center text-gray-400">
-                    <p>&copy; 2023 JobBridge. All rights reserved.</p>
+
+                <div class="mt-12 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-sm text-gray-500">
+                        &copy; <%= DateTime.Now.Year %> JobBridge. All rights reserved.
+                    </p>
+                    <div class="mt-4 md:mt-0 flex space-x-6">
+                        <a href="/Pages/WebPages/PrivacyPolicy.aspx" class="footer-link text-sm text-gray-500">
+                            Privacy Policy</a>
+                        <a href="/Pages/WebPages/TermsOfService.aspx" class="footer-link text-sm text-gray-500">
+                            Terms of Service</a>
+                        <a href="/Pages/WebPages/CookiePolicy.aspx" class="footer-link text-sm text-gray-500">
+                            Cookie Policy</a>
+                    </div>
                 </div>
             </div>
         </footer>
 
-        <!-- Script for mobile menu toggle -->
+        <!-- JavaScript -->
         <script>
-            const btn = document.querySelector("button.mobile-menu-button");
-            const menu = document.querySelector(".mobile-menu");
+            document.addEventListener('DOMContentLoaded', function () {
+                const mobileMenuButton = document.getElementById('mobileMenuButton');
+                const mobileMenu = document.getElementById('mobileMenu');
+                const navbar = document.getElementById('navbar');
+                const menuIcon = document.getElementById('menuIcon');
 
-            btn.addEventListener("click", () => {
-                menu.classList.toggle("hidden");
+                // Mobile menu toggle
+                mobileMenuButton.addEventListener('click', function () {
+                    mobileMenu.classList.toggle('open');
+
+                    // Toggle between menu and close icon
+                    if (mobileMenu.classList.contains('open')) {
+                        menuIcon.setAttribute('d', 'M6 18L18 6M6 6l12 12');
+                    } else {
+                        menuIcon.setAttribute('d', 'M4 6h16M4 12h16M4 18h16');
+                    }
+                });
+
+                // Navbar scroll effect
+                window.addEventListener('scroll', function () {
+                    if (window.scrollY > 10) {
+                        navbar.classList.add('scrolled');
+                    } else {
+                        navbar.classList.remove('scrolled');
+                    }
+                });
+
+                // Set active nav link based on current page
+                const currentPath = window.location.pathname;
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    if (link.getAttribute('href') === currentPath) {
+                        link.classList.add('active');
+                    }
+                });
             });
+
+            // Ripple effect for buttons
+            function addRippleEffect(event) {
+                const btn = event.currentTarget;
+                const circle = document.createElement("span");
+                const diameter = Math.max(btn.clientWidth, btn.clientHeight);
+                const radius = diameter / 2;
+
+                circle.style.width = circle.style.height = `${diameter}px`;
+                circle.style.left = `${event.clientX - btn.getBoundingClientRect().left - radius}px`;
+                circle.style.top = `${event.clientY - btn.getBoundingClientRect().top - radius}px`;
+                circle.classList.add("ripple");
+
+                const ripple = btn.getElementsByClassName("ripple")[0];
+                if (ripple) {
+                    ripple.remove();
+                }
+
+                btn.appendChild(circle);
+            }
         </script>
     </form>
 </body>
