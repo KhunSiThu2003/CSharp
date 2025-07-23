@@ -7,7 +7,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{501A80CA-38E2-4E1D-931B-00C642B7180F}</ProjectGuid>
+    <ProjectGuid>{AE33AD05-6CC6-46C4-8D9C-333BF54A88EC}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -16,7 +16,7 @@
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
-    <IISExpressSSLPort>44353</IISExpressSSLPort>
+    <IISExpressSSLPort>44380</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -69,16 +69,15 @@
   <ItemGroup>
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Pages\Admin\Dashboard.aspx" />
-    <Content Include="Pages\Employer\Dashboard.aspx" />
-    <Content Include="Pages\JobSeeker\Dashboard.aspx" />
+    <Content Include="Pages\Auth\LoginPage.aspx" />
+    <Content Include="Pages\Auth\RegisterPage.aspx" />
     <Content Include="Pages\WebPages\AboutUsPage.aspx" />
     <Content Include="Pages\WebPages\ContactUsPage.aspx" />
     <Content Include="Pages\WebPages\Employers.aspx" />
     <Content Include="Pages\WebPages\HomePage.aspx" />
     <Content Include="Pages\WebPages\JobListings.aspx" />
     <Content Include="Pages\WebPages\Resources.aspx" />
-    <Content Include="Styles\input.css" />
+    <Content Include="Styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -127,26 +126,19 @@
     <Compile Include="MasterPages\WebPagesSite.Master.designer.cs">
       <DependentUpon>WebPagesSite.Master</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Admin\Dashboard.aspx.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
+    <Compile Include="Pages\Auth\LoginPage.aspx.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Admin\Dashboard.aspx.designer.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
+    <Compile Include="Pages\Auth\LoginPage.aspx.designer.cs">
+      <DependentUpon>LoginPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Employer\Dashboard.aspx.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
+    <Compile Include="Pages\Auth\RegisterPage.aspx.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\Employer\Dashboard.aspx.designer.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\JobSeeker\Dashboard.aspx.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\JobSeeker\Dashboard.aspx.designer.cs">
-      <DependentUpon>Dashboard.aspx</DependentUpon>
+    <Compile Include="Pages\Auth\RegisterPage.aspx.designer.cs">
+      <DependentUpon>RegisterPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\WebPages\AboutUsPage.aspx.cs">
       <DependentUpon>AboutUsPage.aspx</DependentUpon>
@@ -194,11 +186,11 @@
     <Compile Include="Services\TokenService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MasterPages\AuthSite.Master" />
     <Content Include="MasterPages\AdminSite.Master" />
-    <Content Include="MasterPages\WebPagesSite.Master" />
+    <Content Include="MasterPages\AuthSite.Master" />
     <Content Include="MasterPages\EmployerSite.Master" />
     <Content Include="MasterPages\JobSeekerSite.Master" />
+    <Content Include="MasterPages\WebPagesSite.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -210,7 +202,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Pages\Auth\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -225,9 +216,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>50468</DevelopmentServerPort>
+          <DevelopmentServerPort>50679</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44353/</IISUrl>
+          <IISUrl>https://localhost:44380/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

@@ -1,0 +1,122 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AuthPages.master.cs"
+    Inherits="JobFinderWebApp.UserSite.AuthPages.AuthPages" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Job Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    
+    <style>
+        html, body, form {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Page transition animations */
+        .page-enter {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        
+        .page-enter-active {
+            opacity: 1;
+            transform: translateY(0);
+            transition: all 300ms ease-out;
+        }
+        
+        .page-exit {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .page-exit-active {
+            opacity: 0;
+            transform: translateY(-20px);
+            transition: all 300ms ease-in;
+        }
+        
+        /* For initial page load */
+        .page-initial {
+            animation: fadeIn 400ms ease-out forwards;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-gradient-to-b from-indigo-50 to-white">
+    <form id="form1" runat="server" class="h-full">
+        <!-- Animation wrapper -->
+        <div id="animationWrapper" class="h-full page-initial">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <script>
+            // Handle form submissions with animation
+            document.addEventListener('DOMContentLoaded', function() {
+                const form = document.getElementById('form1');
+                const wrapper = document.getElementById('animationWrapper');
+                
+                // Handle regular postbacks
+                if (typeof(Sys) !== 'undefined' && typeof(Sys.WebForms) !== 'undefined') {
+                    Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(beginRequest);
+                    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequest);
+                }
+                
+                // Handle form submissions
+                form.addEventListener('submit', function(e) {
+                    // Skip if it's a validation postback
+                    if (typeof(Page_ClientValidate) === 'function' && Page_ClientValidate()) {
+                        startTransition();
+                    }
+                });
+                
+                function beginRequest(sender, args) {
+                    startTransition();
+                }
+                
+                function endRequest(sender, args) {
+                    completeTransition();
+                }
+                
+                function startTransition() {
+                    wrapper.classList.remove('page-initial');
+                    wrapper.classList.add('page-exit');
+                    wrapper.classList.add('page-exit-active');
+                }
+                
+                function completeTransition() {
+                    wrapper.classList.remove('page-exit', 'page-exit-active');
+                    wrapper.classList.add('page-enter');
+                    
+                    // Force reflow to restart animation
+                    void wrapper.offsetWidth;
+                    
+                    wrapper.classList.add('page-enter-active');
+                    
+                    // Clean up after animation completes
+                    setTimeout(function() {
+                        wrapper.classList.remove('page-enter', 'page-enter-active');
+                    }, 300);
+                }
+            });
+        </script>
+    </form>
+</body>
+</html>

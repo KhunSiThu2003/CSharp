@@ -1,0 +1,60 @@
+﻿JobConnect/
+│
+├── App_Code/                      # Reusable helper classes & logic
+│   ├── DBHelper.cs
+│   └── Utilities.cs
+│
+├── App_Data/                      # Database files (.mdf) if used locally
+│
+├── Admin/                         # Admin control panel
+│   ├── Dashboard.aspx
+│   ├── ManageUsers.aspx
+│   ├── ManageJobs.aspx
+│   └── Settings.aspx
+│
+├── Employer/                      # Employer dashboard & job posting
+│   ├── Dashboard.aspx
+│   ├── PostJob.aspx
+│   ├── MyJobs.aspx
+│   ├── Applicants.aspx
+│   └── Profile.aspx
+│
+├── JobSeeker/                     # Job seeker panel
+│   ├── Dashboard.aspx
+│   ├── JobList.aspx
+│   ├── JobDetails.aspx
+│   ├── MyApplications.aspx
+│   └── Profile.aspx
+│
+├── Auth/                          # Login/Register/Password pages
+│   ├── Login.aspx
+│   ├── Register.aspx
+│   ├── ForgotPassword.aspx
+│   └── Logout.aspx
+│
+├── MasterPages/                   # Shared layouts
+│   ├── Site.master
+│   └── Admin.master
+│
+├── Assets/                        # Static files
+│   ├── css/
+│   │   └── style.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│       └── logo.png
+│
+├── Controls/                      # Reusable Web User Controls
+│   ├── JobCard.ascx
+│   ├── Pagination.ascx
+│   └── Notification.ascx
+│
+├── Services/                      # Business logic classes
+│   ├── JobService.cs
+│   ├── UserService.cs
+│   └── AuthService.cs
+│
+├── Web.config                     # Project configuration
+├── Global.asax                    # Application-level events
+├── Default.aspx                   # Homepage
+└── About.aspx                     # Optional static page

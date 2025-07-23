@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AuthPages.master.cs" Inherits="JobFinderWebApp.CompanySite.AuthPages.AuthPages" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Job Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    
+    <style>
+        html, body, form {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+        /* Page transition animations */
+        .page-transition {
+            animation: fadeIn 0.5s ease-out forwards;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Button animations */
+        .btn-animate {
+            transition: all 0.3s ease;
+        }
+        .btn-animate:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .btn-animate:active {
+            transform: translateY(0);
+        }
+        
+        /* Input field animations */
+        .input-animate {
+            transition: all 0.3s ease;
+        }
+        .input-animate:focus {
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+        }
+        
+        /* Card animations */
+        .card-animate {
+            transition: all 0.3s ease;
+        }
+        .card-animate:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-gradient-to-b from-indigo-50 to-white">
+    <form id="form1" runat="server" class="h-full">
+        <!-- Animation Wrapper -->
+        <div id="pageWrapper" class="h-full page-transition">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+        <script>
+            // Add smooth transitions for postbacks
+            document.addEventListener('DOMContentLoaded', function() {
+                // Initialize animations for ASP.NET controls
+                initAnimations();
+                
+                // Handle ASP.NET AJAX partial postbacks
+                if (typeof(Sys) !== 'undefined' && typeof(Sys.WebForms) !== 'undefined') {
+                    Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(beginRequest);
+                    Sys.WebForms.PageRequestManager.getInstance().add_endRequest(endRequest);
+                }
+                
+                // Add animation to all buttons
+                document.querySelectorAll('input[type="submit"], button, .btn').forEach(btn => {
+                    btn.classList.add('btn-animate');
+                });
+                
+                // Add animation to all input fields
+                document.querySelectorAll('input[type="text"], input[type="password"], input[type="email"], textarea, select').forEach(input => {
+                    input.classList.add('input-animate');
+                });
+                
+                // Add animation to all cards
+                document.querySelectorAll('.card, .panel').forEach(card => {
+                    card.classList.add('card-animate');
+                });
+            });
+            
+            function initAnimations() {
+                const wrapper = document.getElementById('pageWrapper');
+                wrapper.classList.add('page-transition');
+            }
+            
+            function beginRequest(sender, args) {
+                const wrapper = document.getElementById('pageWrapper');
+                wrapper.style.opacity = '0.5';
+                wrapper.style.transition = 'opacity 0.3s ease';
+            }
+            
+            function endRequest(sender, args) {
+                const wrapper = document.getElementById('pageWrapper');
+                wrapper.style.opacity = '1';
+                
+                // Reinitialize animations after postback
+                setTimeout(initAnimations, 10);
+            }
+        </script>
+    </form>
+</body>
+</html>

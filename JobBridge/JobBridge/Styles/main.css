@@ -1,0 +1,67 @@
+﻿:root {
+    --primary: #000000; /* Pure black */
+    --primary-light: #333333; /* Dark gray (lighter than black) */
+    --primary-dark: #000000; /* Pure black (same as base) */
+    --secondary: #10B981; /* Keeping your existing secondary */
+    --accent: #F59E0B; /* Keeping your existing accent */
+    --dark: #1F2937; /* Keeping your existing dark */
+    --light: #F9FAFB; /* Keeping your existing light */
+    --gray: #6B7280; /* Keeping your existing gray */
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark);
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+/* Button Styles */
+.btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 600;
+    letter-spacing: 0.025em;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+    box-shadow: 0 4px 6px rgba(79, 70, 229, 0.1);
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.2);
+}
+
+.btn-secondary {
+    background: white;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+
+.btn-secondary:hover {
+    background: rgba(79, 70, 229, 0.05);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.btn-white {
+    background: white;
+    color: var(--primary);
+}
+
+.btn-white:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-1px);
+}
