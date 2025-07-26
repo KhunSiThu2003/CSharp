@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\khuns\\Desktop\\CSharp\\Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66C7CDA4-2828-4E46-A379-88B5CE2E783D}|Management\\Management.csproj|c:\\users\\khuns\\desktop\\csharp\\management\\management\\student.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{66C7CDA4-2828-4E46-A379-88B5CE2E783D}|Management\\Management.csproj|solutionrelative:management\\student.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66C7CDA4-2828-4E46-A379-88B5CE2E783D}|Management\\Management.csproj|c:\\users\\khuns\\desktop\\csharp\\management\\management\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{66C7CDA4-2828-4E46-A379-88B5CE2E783D}|Management\\Management.csproj|solutionrelative:management\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66C7CDA4-2828-4E46-A379-88B5CE2E783D}|Management\\Management.csproj|c:\\users\\khuns\\desktop\\csharp\\management\\management\\student.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66C7CDA4-2828-4E46-A379-88B5CE2E783D}|Management\\Management.csproj|solutionrelative:management\\student.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\Management\\Management\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "Management\\WebForm1.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\Management\\Management\\WebForm1.aspx",
+              "RelativeToolTip": "Management\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T08:56:36.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\Management\\Management\\Student.aspx",
+              "RelativeDocumentMoniker": "Management\\Student.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\Management\\Management\\Student.aspx",
+              "RelativeToolTip": "Management\\Student.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-24T08:46:09.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\Management\\Management\\Student.aspx.cs",
+              "RelativeDocumentMoniker": "Management\\Student.aspx.cs",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\Management\\Management\\Student.aspx.cs",
+              "RelativeToolTip": "Management\\Student.aspx.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T08:24:33.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

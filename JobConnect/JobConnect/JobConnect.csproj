@@ -67,13 +67,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AuthPages\Employer\ForgotPassword.aspx" />
+    <Content Include="AuthPages\Employer\Login.aspx" />
+    <Content Include="AuthPages\Employer\Register.aspx" />
+    <Content Include="AuthPages\Employer\VerifyEmail.aspx" />
+    <Content Include="AuthPages\JobSeeker\ForgotPassword.aspx" />
+    <Content Include="AuthPages\JobSeeker\Login.aspx" />
+    <Content Include="AuthPages\JobSeeker\Register.aspx" />
+    <Content Include="AuthPages\JobSeeker\VerifyEmail.aspx" />
     <Content Include="default.aspx" />
     <Content Include="FolderStructure.txt" />
     <Content Include="Global.asax" />
-    <Content Include="Pages\Auth\ForgotPassword.aspx" />
-    <Content Include="Pages\Auth\Login.aspx" />
-    <Content Include="Pages\Auth\Register.aspx" />
-    <Content Include="Pages\Auth\VerifyEmail.aspx" />
     <Content Include="Pages\Employer\Applicants.aspx" />
     <Content Include="Pages\Employer\Dashboard.aspx" />
     <Content Include="Pages\Employer\MyJobs.aspx" />
@@ -87,6 +91,62 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AuthPages\Employer\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthPages\Employer\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthPages\Employer\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthPages\Employer\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthPages\Employer\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthPages\Employer\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthPages\Employer\VerifyEmail.aspx.cs">
+      <DependentUpon>VerifyEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthPages\Employer\VerifyEmail.aspx.designer.cs">
+      <DependentUpon>VerifyEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthPages\JobSeeker\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthPages\JobSeeker\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthPages\JobSeeker\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthPages\JobSeeker\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthPages\JobSeeker\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthPages\JobSeeker\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthPages\JobSeeker\VerifyEmail.aspx.cs">
+      <DependentUpon>VerifyEmail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuthPages\JobSeeker\VerifyEmail.aspx.designer.cs">
+      <DependentUpon>VerifyEmail.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -124,34 +184,6 @@
     </Compile>
     <Compile Include="MasterPages\JobSeeker.Master.designer.cs">
       <DependentUpon>JobSeeker.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Auth\ForgotPassword.aspx.cs">
-      <DependentUpon>ForgotPassword.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Auth\ForgotPassword.aspx.designer.cs">
-      <DependentUpon>ForgotPassword.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Auth\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Auth\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Auth\Register.aspx.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Auth\Register.aspx.designer.cs">
-      <DependentUpon>Register.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\Auth\VerifyEmail.aspx.cs">
-      <DependentUpon>VerifyEmail.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\Auth\VerifyEmail.aspx.designer.cs">
-      <DependentUpon>VerifyEmail.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Employer\Applicants.aspx.cs">
       <DependentUpon>Applicants.aspx</DependentUpon>
@@ -243,6 +275,7 @@
     <Folder Include="Assets\css\" />
     <Folder Include="Assets\images\" />
     <Folder Include="Assets\js\" />
+    <Folder Include="AuthPages\Admin\" />
     <Folder Include="Models\" />
     <Folder Include="Pages\Admin\" />
     <Folder Include="Services\" />

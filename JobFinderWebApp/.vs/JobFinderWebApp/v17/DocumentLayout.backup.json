@@ -7,6 +7,38 @@
       "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|c:\\users\\khuns\\desktop\\csharp\\jobfinderwebapp\\jobfinderwebapp\\usersite\\authpages\\forgotpassword.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\forgotpassword.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\forgotpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\forgotpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\verifyemail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\verifyemail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|c:\\users\\khuns\\desktop\\csharp\\jobfinderwebapp\\jobfinderwebapp\\usersite\\authpages\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\authpages.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\authpages.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|c:\\users\\khuns\\desktop\\csharp\\jobfinderwebapp\\jobfinderwebapp\\usersite\\authpages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -39,10 +71,6 @@
       "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\companysite\\authpages\\authpages.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\authpages.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\authpages.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\companysite\\authpages\\companyforgotpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\companysite\\authpages\\companyforgotpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
@@ -61,22 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\companysite\\authpages\\companylogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\companysite\\authpages\\companylogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\verifyemail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\verifyemail.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\forgotpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\forgotpassword.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\usersite\\authpages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|solutionrelative:jobfinderwebapp\\usersite\\authpages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{632D690D-C9F3-42F1-BE08-2BF13DDC0549}|JobFinderWebApp\\JobFinderWebApp.csproj|C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\jobfinderwebapp\\handlers\\badgecounts.ashx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,11 +118,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForgotPassword.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx.cs",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx.cs",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx.cs",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIcBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T22:15:18.827Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -120,7 +145,7 @@
               "RelativeDocumentMoniker": "JobFinderWebApp\\Web.config",
               "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\Web.config",
               "RelativeToolTip": "JobFinderWebApp\\Web.config",
-              "ViewState": "AgIAADsAAAAAAAAAAABRwE0AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-06-27T20:44:55.752Z",
               "EditorCaption": ""
@@ -128,54 +153,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Profile.aspx",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Profile.aspx",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\Profile.aspx",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Profile.aspx",
-              "RelativeToolTip": "JobFinderWebApp\\UserSite\\Views\\Profile.aspx",
+              "Title": "VerifyEmail.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\VerifyEmail.aspx",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\VerifyEmail.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\VerifyEmail.aspx",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\VerifyEmail.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-02T10:23:37.708Z"
+              "WhenOpened": "2025-06-30T10:28:20.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MessageRoom.aspx",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\MessageRoom.aspx",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\MessageRoom.aspx",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\MessageRoom.aspx",
-              "RelativeToolTip": "JobFinderWebApp\\UserSite\\Views\\MessageRoom.aspx",
+              "Title": "ForgotPassword.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-02T10:47:40.195Z"
+              "WhenOpened": "2025-06-30T10:22:48.628Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Messages.aspx",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Messages.aspx",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\Messages.aspx",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Messages.aspx",
-              "RelativeToolTip": "JobFinderWebApp\\UserSite\\Views\\Messages.aspx",
+              "DocumentIndex": 4,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-07-02T10:43:56.104Z"
+              "WhenOpened": "2025-06-30T08:36:11.532Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthPages.Master",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master",
-              "RelativeToolTip": "JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-30T10:38:46.543Z"
+              "DocumentIndex": 5,
+              "Title": "Register.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx.cs",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx.cs",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx.cs",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAHoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T22:10:06.292Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx.cs",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAF8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T22:02:41.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "default.aspx",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\default.aspx",
               "RelativeDocumentMoniker": "JobFinderWebApp\\default.aspx",
@@ -187,7 +229,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
+              "Title": "AuthPages.Master",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master",
+              "RelativeToolTip": "JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-30T10:38:46.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthPages.Master",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\AuthPages.Master",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\AuthPages.Master",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\AuthPages.Master",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\AuthPages.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-30T07:56:06.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Messages.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Messages.aspx",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\Messages.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Messages.aspx",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\Views\\Messages.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-02T10:43:56.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessageRoom.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\MessageRoom.aspx",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\MessageRoom.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\MessageRoom.aspx",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\Views\\MessageRoom.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-02T10:47:40.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Profile.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Profile.aspx",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\Profile.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Profile.aspx",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\Views\\Profile.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-07-02T10:23:37.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx",
+              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx",
+              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx",
+              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-06-30T07:56:07.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "AuthPages.Master.cs",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master.cs",
               "RelativeDocumentMoniker": "JobFinderWebApp\\CompanySite\\AuthPages\\AuthPages.Master.cs",
@@ -199,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 21,
               "Title": "CompanyLogin.aspx",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\CompanyLogin.aspx",
               "RelativeDocumentMoniker": "JobFinderWebApp\\CompanySite\\AuthPages\\CompanyLogin.aspx",
@@ -211,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Views.Master",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\Views\\Views.Master",
               "RelativeDocumentMoniker": "JobFinderWebApp\\CompanySite\\Views\\Views.Master",
@@ -223,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "Dashboard.aspx",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Dashboard.aspx",
               "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\Dashboard.aspx",
@@ -235,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "Views.Master",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Views.Master",
               "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\Views.Master",
@@ -247,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "CompanyVerifyEmail.aspx",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\CompanyVerifyEmail.aspx",
               "RelativeDocumentMoniker": "JobFinderWebApp\\CompanySite\\AuthPages\\CompanyVerifyEmail.aspx",
@@ -259,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "CompanyRegister.aspx",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\CompanyRegister.aspx",
               "RelativeDocumentMoniker": "JobFinderWebApp\\CompanySite\\AuthPages\\CompanyRegister.aspx",
@@ -271,19 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthPages.Master",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\AuthPages.Master",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\AuthPages.Master",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\AuthPages.Master",
-              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\AuthPages.Master",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-30T07:56:06.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "CompanyForgotPassword.aspx",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\CompanySite\\AuthPages\\CompanyForgotPassword.aspx",
               "RelativeDocumentMoniker": "JobFinderWebApp\\CompanySite\\AuthPages\\CompanyForgotPassword.aspx",
@@ -295,55 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "VerifyEmail.aspx",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\VerifyEmail.aspx",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\VerifyEmail.aspx",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\VerifyEmail.aspx",
-              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\VerifyEmail.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-30T10:28:20.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ForgotPassword.aspx",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx",
-              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\ForgotPassword.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-30T10:22:48.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Register.aspx",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx",
-              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\Register.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-30T08:36:11.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx",
-              "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx",
-              "ToolTip": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx",
-              "RelativeToolTip": "JobFinderWebApp\\UserSite\\AuthPages\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-06-30T07:56:07.054Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "Jobs.aspx",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\Jobs.aspx",
               "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\Jobs.aspx",
@@ -355,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "JobDetail.aspx",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\UserSite\\Views\\JobDetail.aspx",
               "RelativeDocumentMoniker": "JobFinderWebApp\\UserSite\\Views\\JobDetail.aspx",
@@ -367,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "BadgeCounts.ashx.cs",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\Handlers\\BadgeCounts.ashx.cs",
               "RelativeDocumentMoniker": "JobFinderWebApp\\Handlers\\BadgeCounts.ashx.cs",
@@ -379,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "packages.config",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\packages.config",
               "RelativeDocumentMoniker": "JobFinderWebApp\\packages.config",
@@ -391,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\khuns\\Desktop\\CSharp\\JobFinderWebApp\\JobFinderWebApp\\Global.asax.cs",
               "RelativeDocumentMoniker": "JobFinderWebApp\\Global.asax.cs",

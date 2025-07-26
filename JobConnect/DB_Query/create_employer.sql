@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[Employer] (
+    [Employer_Id]                NVARCHAR (50)  NOT NULL,
+    [Name]                     NVARCHAR (100) NOT NULL,
+    [Description]              NVARCHAR (MAX) NULL,
+    [Logo]                     NVARCHAR (255) NULL,
+    [Website]                  NVARCHAR (100) NULL,
+    [Location]                 NVARCHAR (100) NULL,
+    [Industry]                 NVARCHAR (50)  NULL,
+    [IsActive]                 BIT            DEFAULT ((1)) NULL,
+    [Email]             NVARCHAR (100) NOT NULL,
+    [Phone]             NVARCHAR (20)  NOT NULL,
+    [Password]                 NVARCHAR (MAX) NOT NULL,
+    [CreatedDate]              DATETIME       DEFAULT (getdate()) NULL,
+    [IsEmailVerified]          BIT            DEFAULT ((0)) NOT NULL,
+    [VerificationCode]         NVARCHAR (6)   NULL,
+    [VerificationCodeExpiry]   DATETIME       NULL,
+    [VerificationAttempts]     INT            DEFAULT ((0)) NOT NULL,
+    [LastVerificationAttempt]  DATETIME       NULL,
+    [PasswordResetOTP]         NVARCHAR (6)   NULL,
+    [PasswordResetOTPExpiry]   DATETIME       NULL,
+    [PasswordResetAttempts]    INT            DEFAULT ((0)) NOT NULL,
+    [LastPasswordResetAttempt] DATETIME       NULL,
+    PRIMARY KEY CLUSTERED ([Employer_Id] ASC)
+);
+
